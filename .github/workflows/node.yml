@@ -32,7 +32,7 @@ jobs:
         run: npm install
 
       - name: Start Server
-        run: npm start
+        run: echo "this is only runs on main3333"
 
       - name: Conditional Step
         run: echo "this is only runs on main"
